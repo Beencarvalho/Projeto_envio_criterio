@@ -1,0 +1,144 @@
+{
+    "active": true,
+    "id": 54,
+    "name": "teste envio",
+    "description": "Adicione uma descricao aqui",
+    "items": [
+        {
+            "active": true,
+            "base": 1,
+            "distribution": 0.16666666666666666,
+            "apportionmentId": 54,
+            "sectorId": 3,
+            "sector": {
+                "active": true,
+                "id": 3,
+                "name": "GERENCIA DE MARKETING E COMUNICACAO CORPORATIVA",
+                "code": "3",
+                "codeCostCenter": "11.001",
+                "company": {
+                    "active": true,
+                    "id": 1,
+                    "name": "01 - MATRIZ - SCMBA",
+                    "code": "01"
+                },
+                "companyId": 1
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": 1,
+            "distribution": 0.16666666666666666,
+            "apportionmentId": 54,
+            "sectorId": 74,
+            "sector": {
+                "active": true,
+                "id": 74,
+                "name": "VIDEOENDOSCOPIA DAY",
+                "code": "74",
+                "codeCostCenter": "20.705",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": 1,
+            "distribution": 0.16666666666666666,
+            "apportionmentId": 54,
+            "sectorId": 399,
+            "sector": {
+                "active": true,
+                "id": 399,
+                "name": "GERENCIA DE PATRIMONIO IMOBILIARIO",
+                "code": "399",
+                "codeCostCenter": "15.1",
+                "company": {
+                    "active": true,
+                    "id": 3,
+                    "name": "03 - GESTAO IMOBILIARIA",
+                    "code": "03"
+                },
+                "companyId": 3
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": 1,
+            "distribution": 0.16666666666666666,
+            "apportionmentId": 54,
+            "sectorId": 515,
+            "sector": {
+                "active": true,
+                "id": 515,
+                "name": "GERENCIA DO CAMPO SANTO",
+                "code": "515",
+                "codeCostCenter": "25.1",
+                "company": {
+                    "active": true,
+                    "id": 4,
+                    "name": "04 - CEMITERIO DO CAMPO SANTO",
+                    "code": "04"
+                },
+                "companyId": 4
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": 1,
+            "distribution": 0.16666666666666666,
+            "apportionmentId": 54,
+            "sectorId": 518,
+            "sector": {
+                "active": true,
+                "id": 518,
+                "name": "CERIMONIAL RAINHA LEONOR",
+                "code": "518",
+                "codeCostCenter": "42.001",
+                "company": {
+                    "active": true,
+                    "id": 5,
+                    "name": "05 - EVENTOS",
+                    "code": "05"
+                },
+                "companyId": 5
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": 1,
+            "distribution": 0.16666666666666666,
+            "apportionmentId": 54,
+            "sectorId": 521,
+            "sector": {
+                "active": true,
+                "id": 521,
+                "name": "DIRETORIA DE ACAO SOCIAL E CULTURA",
+                "code": "521",
+                "codeCostCenter": "40.001",
+                "company": {
+                    "active": true,
+                    "id": 6,
+                    "name": "06 - ACAO SOCIAL",
+                    "code": "06"
+                },
+                "companyId": 6
+            },
+            "orderBy": null
+        }
+    ],
+    "cycle": null,
+    "cycleId": 5,
+    "baseSum": null,
+    "totalItems": null
+}
