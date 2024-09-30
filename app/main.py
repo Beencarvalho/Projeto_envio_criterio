@@ -105,8 +105,8 @@ def processar_arquivo(file_path, ): #ultimo_id_criterio (adicionar caso queira c
     return json_final
 
 # Função para processar o arquivo e salvar o JSON na pasta
-def salvar_json_local(arquivo, ultimo_id_criterio):
-    json_resultado = processar_arquivo(arquivo, ultimo_id_criterio)
+def salvar_json_local(arquivo):
+    json_resultado = processar_arquivo(arquivo)
     
     # Nome do arquivo JSON a ser salvo
     nome_arquivo_json = os.path.splitext(os.path.basename(arquivo))[0] + '.json'
