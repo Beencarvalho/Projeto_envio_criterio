@@ -8,6 +8,9 @@ from util.api_token import url,headers
 pasta_arquivos = 'data'
 # Definindo um ID inicial
 ultimo_id_criterio = int(input("Digite o numero do ID do ultimo criterio cadastrado: "))
+# Certifique-se de que a pasta 'data/' exista
+if not os.path.exists('data/'):
+    os.makedirs('data/')
 # Listar todos os arquivos Excel na pasta
 arquivos_excel = [os.path.join(pasta_arquivos, f) 
                   for f in os.listdir(pasta_arquivos) 
@@ -107,23 +110,27 @@ def salvar_json_local(arquivo, ultimo_id_criterio):
     return nome_arquivo_json  # Retorna o nome do arquivo salvo
 
 # Função para enviar um JSON via POST
-def enviar_json(json_dados):
+def enviar_json(json_dados, nome_arquivo_json):
     try:
         response = requests.post(url, headers=headers, data=json.dumps(json_dados))
+        response.raise_for_status()  # Isso levanta um erro se o status code for 4xx ou 5xx
+
     except requests.exceptions.HTTPError as errh:
-        print("Http Error:", errh)
+        try:
+            # Tentando capturar a mensagem de erro do JSON retornado pela API
+            error_message = response.json().get('message', 'Erro desconhecido')
+            print(f"Falha ao enviar o JSON:  ({nome_arquivo_json}).   Status: {response.status_code}, Resposta: {error_message}")
+        except ValueError:
+            # Caso o JSON não esteja disponível ou seja inválido
+            print(f"Falha ao enviar o JSON:  ({nome_arquivo_json}).   Status: {response.status_code}, Resposta: {response.text}")
     except requests.exceptions.ConnectionError as errc:
-        print("Error de conexão:", errc) 
+        print("Error de conexão:", errc)
     except requests.exceptions.Timeout as errt:
         print("Timeout Error:", errt)
     except requests.exceptions.RequestException as err:
-        print("OOps: algo aconteceu", err)
-
-    # Verificar se a requisição foi bem-sucedida
-    if response.status_code == 200:
-        print("JSON enviado com sucesso!")
+        print("OOps: algo estranho aconteceu", err)
     else:
-        print(f"Falha ao enviar o JSON. Status: {response.status_code}, Resposta: {response.text}")
+        print(f"JSON:  ({nome_arquivo_json})  enviado com sucesso!")
 
 # Função para enviar JSONs da pasta jsons/
 def enviar_jsons_da_pasta():
@@ -135,7 +142,7 @@ def enviar_jsons_da_pasta():
             json_dados = json.load(f)
         
         # Enviar o JSON carregado
-        enviar_json(json_dados)
+        enviar_json(json_dados, json_file)
 
 # Certifique-se de que a pasta 'jsons/' exista
 if not os.path.exists('jsons/'):

@@ -8,6 +8,9 @@ from util.api_token import url,headers
 pasta_arquivos = 'data'
 # Definindo um ID inicial
 ultimo_id_criterio = int(input("Digite o numero do ID do ultimo criterio cadastrado: "))
+# Certifique-se de que a pasta 'data/' exista
+if not os.path.exists('data/'):
+    os.makedirs('data/')
 # Listar todos os arquivos Excel na pasta
 arquivos_excel = [os.path.join(pasta_arquivos, f) 
                   for f in os.listdir(pasta_arquivos) 
@@ -128,7 +131,6 @@ def enviar_json(json_dados, nome_arquivo_json):
         print("OOps: algo estranho aconteceu", err)
     else:
         print(f"JSON:  ({nome_arquivo_json})  enviado com sucesso!")
-
 
 # Função para enviar JSONs da pasta jsons/
 def enviar_jsons_da_pasta():

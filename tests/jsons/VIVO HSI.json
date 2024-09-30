@@ -1,0 +1,1816 @@
+{
+    "active": true,
+    "id": 165,
+    "name": "VIVO HSI",
+    "description": "Adicione uma descricao aqui",
+    "items": [
+        {
+            "active": true,
+            "base": -44.33,
+            "distribution": 0.004850709113927651,
+            "apportionmentId": 165,
+            "sectorId": 3,
+            "sector": {
+                "active": true,
+                "id": 3,
+                "name": "GERENCIA DE COMUNICACAO CORPORATIVA",
+                "code": "3",
+                "codeCostCenter": "11001.0",
+                "company": {
+                    "active": true,
+                    "id": 1,
+                    "name": "01 - MATRIZ - SCMBA",
+                    "code": "01"
+                },
+                "companyId": 1
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.45,
+            "distribution": 0.003113076343136514,
+            "apportionmentId": 165,
+            "sectorId": 13,
+            "sector": {
+                "active": true,
+                "id": 13,
+                "name": "SUPERINTENDENCIA DE SERVICOS CORPORATIVOS",
+                "code": "13",
+                "codeCostCenter": "12001.0",
+                "company": {
+                    "active": true,
+                    "id": 1,
+                    "name": "01 - MATRIZ - SCMBA",
+                    "code": "01"
+                },
+                "companyId": 1
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.49,
+            "distribution": 0.003117453251879061,
+            "apportionmentId": 165,
+            "sectorId": 21,
+            "sector": {
+                "active": true,
+                "id": 21,
+                "name": "CONTAS A RECEBER",
+                "code": "21",
+                "codeCostCenter": "12120.0",
+                "company": {
+                    "active": true,
+                    "id": 1,
+                    "name": "01 - MATRIZ - SCMBA",
+                    "code": "01"
+                },
+                "companyId": 1
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -15.84,
+            "distribution": 0.00173325586204859,
+            "apportionmentId": 165,
+            "sectorId": 25,
+            "sector": {
+                "active": true,
+                "id": 25,
+                "name": "GESTAO DE CONTRATOS",
+                "code": "25",
+                "codeCostCenter": "12124.0",
+                "company": {
+                    "active": true,
+                    "id": 1,
+                    "name": "01 - MATRIZ - SCMBA",
+                    "code": "01"
+                },
+                "companyId": 1
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -15.84,
+            "distribution": 0.00173325586204859,
+            "apportionmentId": 165,
+            "sectorId": 28,
+            "sector": {
+                "active": true,
+                "id": 28,
+                "name": "COORDENA\u00c7\u00c3O SISTEMAS APLICA\u00c7\u00d5ES",
+                "code": "28",
+                "codeCostCenter": "12131.0",
+                "company": {
+                    "active": true,
+                    "id": 1,
+                    "name": "01 - MATRIZ - SCMBA",
+                    "code": "01"
+                },
+                "companyId": 1
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -32.74,
+            "distribution": 0.0035824998057746743,
+            "apportionmentId": 165,
+            "sectorId": 29,
+            "sector": {
+                "active": true,
+                "id": 29,
+                "name": "COORD ANALYTICS PROC INOVA\u00c7\u00d5ES",
+                "code": "29",
+                "codeCostCenter": "12132.0",
+                "company": {
+                    "active": true,
+                    "id": 1,
+                    "name": "01 - MATRIZ - SCMBA",
+                    "code": "01"
+                },
+                "companyId": 1
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -16.9,
+            "distribution": 0.001849243943726084,
+            "apportionmentId": 165,
+            "sectorId": 30,
+            "sector": {
+                "active": true,
+                "id": 30,
+                "name": "SUPERVIS\u00c3O INFRAEST  SEGURAN\u00c7A",
+                "code": "30",
+                "codeCostCenter": "12133.0",
+                "company": {
+                    "active": true,
+                    "id": 1,
+                    "name": "01 - MATRIZ - SCMBA",
+                    "code": "01"
+                },
+                "companyId": 1
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -65.48,
+            "distribution": 0.0071649996115493485,
+            "apportionmentId": 165,
+            "sectorId": 1030,
+            "sector": {
+                "active": true,
+                "id": 1030,
+                "name": "SUPERVIS\u00c3O DE SERVICE DESK",
+                "code": "1030",
+                "codeCostCenter": "12136.0",
+                "company": {
+                    "active": true,
+                    "id": 1,
+                    "name": "01 - MATRIZ - SCMBA",
+                    "code": "01"
+                },
+                "companyId": 1
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -23.06,
+            "distribution": 0.0025232878900783135,
+            "apportionmentId": 165,
+            "sectorId": 849,
+            "sector": {
+                "active": true,
+                "id": 849,
+                "name": "COORD. SEG TRABALHO E MED OCUP",
+                "code": "849",
+                "codeCostCenter": "12178.0",
+                "company": {
+                    "active": true,
+                    "id": 1,
+                    "name": "01 - MATRIZ - SCMBA",
+                    "code": "01"
+                },
+                "companyId": 1
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -41.67,
+            "distribution": 0.00455964468254828,
+            "apportionmentId": 165,
+            "sectorId": 1112,
+            "sector": {
+                "active": true,
+                "id": 1112,
+                "name": "DIR. CORPORATIVA TEC OPERA\u00c7\u00d5ES",
+                "code": "1112",
+                "codeCostCenter": "12180.0",
+                "company": {
+                    "active": true,
+                    "id": 1,
+                    "name": "01 - MATRIZ - SCMBA",
+                    "code": "01"
+                },
+                "companyId": 1
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -38.9,
+            "distribution": 0.004256543752126904,
+            "apportionmentId": 165,
+            "sectorId": 1114,
+            "sector": {
+                "active": true,
+                "id": 1114,
+                "name": "GER\u00caNCIA DE SUPRIMENTOS",
+                "code": "1114",
+                "codeCostCenter": "12182.0",
+                "company": {
+                    "active": true,
+                    "id": 1,
+                    "name": "01 - MATRIZ - SCMBA",
+                    "code": "01"
+                },
+                "companyId": 1
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -111.72,
+            "distribution": 0.012224706117933616,
+            "apportionmentId": 165,
+            "sectorId": 1115,
+            "sector": {
+                "active": true,
+                "id": 1115,
+                "name": "SETOR DE COMPRAS",
+                "code": "1115",
+                "codeCostCenter": "12183.0",
+                "company": {
+                    "active": true,
+                    "id": 1,
+                    "name": "01 - MATRIZ - SCMBA",
+                    "code": "01"
+                },
+                "companyId": 1
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.49,
+            "distribution": 0.003117453251879061,
+            "apportionmentId": 165,
+            "sectorId": 1116,
+            "sector": {
+                "active": true,
+                "id": 1116,
+                "name": "GER\u00caNCIA DE HOTELARIA",
+                "code": "1116",
+                "codeCostCenter": "12184.0",
+                "company": {
+                    "active": true,
+                    "id": 1,
+                    "name": "01 - MATRIZ - SCMBA",
+                    "code": "01"
+                },
+                "companyId": 1
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -16.9,
+            "distribution": 0.001849243943726084,
+            "apportionmentId": 165,
+            "sectorId": 547,
+            "sector": {
+                "active": true,
+                "id": 547,
+                "name": "MUSEU DA MISERICORDIA",
+                "code": "547",
+                "codeCostCenter": "14007.0",
+                "company": {
+                    "active": true,
+                    "id": 7,
+                    "name": "07 - PATRIMONIO CULTURAL",
+                    "code": "07"
+                },
+                "companyId": 7
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -15.84,
+            "distribution": 0.00173325586204859,
+            "apportionmentId": 165,
+            "sectorId": 51,
+            "sector": {
+                "active": true,
+                "id": 51,
+                "name": "PROJETOS E OBRAS",
+                "code": "51",
+                "codeCostCenter": "16110.0",
+                "company": {
+                    "active": true,
+                    "id": 1,
+                    "name": "01 - MATRIZ - SCMBA",
+                    "code": "01"
+                },
+                "companyId": 1
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -218.46,
+            "distribution": 0.02390448709742014,
+            "apportionmentId": 165,
+            "sectorId": 54,
+            "sector": {
+                "active": true,
+                "id": 54,
+                "name": "DIRETORIA CORPORATIVA DE SAUDE",
+                "code": "54",
+                "codeCostCenter": "20001.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.49,
+            "distribution": 0.003117453251879061,
+            "apportionmentId": 165,
+            "sectorId": 56,
+            "sector": {
+                "active": true,
+                "id": 56,
+                "name": "GERENCIA DE ESTUDOS E PROJETOS",
+                "code": "56",
+                "codeCostCenter": "20018.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.49,
+            "distribution": 0.003117453251879061,
+            "apportionmentId": 165,
+            "sectorId": 58,
+            "sector": {
+                "active": true,
+                "id": 58,
+                "name": "GERENCIA COMERCIAL HSI",
+                "code": "58",
+                "codeCostCenter": "20020.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.49,
+            "distribution": 0.003117453251879061,
+            "apportionmentId": 165,
+            "sectorId": 65,
+            "sector": {
+                "active": true,
+                "id": 65,
+                "name": "GER\u00caNCIA T\u00c9C ASSIST QUALIDADE",
+                "code": "65",
+                "codeCostCenter": "20040.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -103.1,
+            "distribution": 0.01128148228391475,
+            "apportionmentId": 165,
+            "sectorId": 68,
+            "sector": {
+                "active": true,
+                "id": 68,
+                "name": "DIRETORIA DE ENSINO E PESQUISA",
+                "code": "68",
+                "codeCostCenter": "20300.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -164.67,
+            "distribution": 0.018018639065880134,
+            "apportionmentId": 165,
+            "sectorId": 73,
+            "sector": {
+                "active": true,
+                "id": 73,
+                "name": "LABORATORIO",
+                "code": "73",
+                "codeCostCenter": "20702.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -72.82,
+            "distribution": 0.007968162365806712,
+            "apportionmentId": 165,
+            "sectorId": 74,
+            "sector": {
+                "active": true,
+                "id": 74,
+                "name": "VIDEOENDOSCOPIA / DAY",
+                "code": "74",
+                "codeCostCenter": "20705.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -99.07,
+            "distribution": 0.010840508728103144,
+            "apportionmentId": 165,
+            "sectorId": 75,
+            "sector": {
+                "active": true,
+                "id": 75,
+                "name": "SENEP-SERVICO NUTRICAO ENTERAL E PARENT",
+                "code": "75",
+                "codeCostCenter": "20706.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -67.39,
+            "distribution": 0.007373997004005965,
+            "apportionmentId": 165,
+            "sectorId": 100,
+            "sector": {
+                "active": true,
+                "id": 100,
+                "name": "RECEPCAO - BIOIMAGEM III",
+                "code": "100",
+                "codeCostCenter": "20780.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -107.69,
+            "distribution": 0.011783732562122012,
+            "apportionmentId": 165,
+            "sectorId": 103,
+            "sector": {
+                "active": true,
+                "id": 103,
+                "name": "PET CT - BIOIMAGEM III",
+                "code": "103",
+                "codeCostCenter": "20783.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.49,
+            "distribution": 0.003117453251879061,
+            "apportionmentId": 165,
+            "sectorId": 121,
+            "sector": {
+                "active": true,
+                "id": 121,
+                "name": "ANATOMIA PATOLOGICA",
+                "code": "121",
+                "codeCostCenter": "20831.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -286.88,
+            "distribution": 0.031391189501546686,
+            "apportionmentId": 165,
+            "sectorId": 134,
+            "sector": {
+                "active": true,
+                "id": 134,
+                "name": "AREAS COMUNS, PATIOS E EDIFICACOES",
+                "code": "134",
+                "codeCostCenter": "20920.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -85.47,
+            "distribution": 0.009352359755637184,
+            "apportionmentId": 165,
+            "sectorId": 145,
+            "sector": {
+                "active": true,
+                "id": 145,
+                "name": "COORD AN\u00c1LISE CONTA E GUIA P\u00d3S",
+                "code": "145",
+                "codeCostCenter": "21110.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -56.98,
+            "distribution": 0.006234906503758122,
+            "apportionmentId": 165,
+            "sectorId": 150,
+            "sector": {
+                "active": true,
+                "id": 150,
+                "name": "SUPERV FATURAMENTO CONV\u00caNIOS",
+                "code": "150",
+                "codeCostCenter": "21115.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.49,
+            "distribution": 0.003117453251879061,
+            "apportionmentId": 165,
+            "sectorId": 155,
+            "sector": {
+                "active": true,
+                "id": 155,
+                "name": "GERENCIA DE FATURAMENTO HSI",
+                "code": "155",
+                "codeCostCenter": "21130.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -272.75,
+            "distribution": 0.029845046488241978,
+            "apportionmentId": 165,
+            "sectorId": 156,
+            "sector": {
+                "active": true,
+                "id": 156,
+                "name": "MANUTENCAO GERAL HSI",
+                "code": "156",
+                "codeCostCenter": "21210.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -15.84,
+            "distribution": 0.00173325586204859,
+            "apportionmentId": 165,
+            "sectorId": 158,
+            "sector": {
+                "active": true,
+                "id": 158,
+                "name": "LAVANDERIA",
+                "code": "158",
+                "codeCostCenter": "21220.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -153.81,
+            "distribution": 0.016830308342278638,
+            "apportionmentId": 165,
+            "sectorId": 160,
+            "sector": {
+                "active": true,
+                "id": 160,
+                "name": "SERVI\u00c7OS COMPLEMENTARES",
+                "code": "160",
+                "codeCostCenter": "21240.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -47.52,
+            "distribution": 0.005199767586145771,
+            "apportionmentId": 165,
+            "sectorId": 161,
+            "sector": {
+                "active": true,
+                "id": 161,
+                "name": "TRANSPORTES",
+                "code": "161",
+                "codeCostCenter": "21241.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -357.88,
+            "distribution": 0.03916020251956751,
+            "apportionmentId": 165,
+            "sectorId": 167,
+            "sector": {
+                "active": true,
+                "id": 167,
+                "name": "HIGIENIZACAO - SERVICOS DE TERCEIROS",
+                "code": "167",
+                "codeCostCenter": "21250.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -350.55,
+            "distribution": 0.03835813399249579,
+            "apportionmentId": 165,
+            "sectorId": 169,
+            "sector": {
+                "active": true,
+                "id": 169,
+                "name": "ENGENHARIA CLINICA",
+                "code": "169",
+                "codeCostCenter": "21280.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -54.74,
+            "distribution": 0.005989799614175494,
+            "apportionmentId": 165,
+            "sectorId": 172,
+            "sector": {
+                "active": true,
+                "id": 172,
+                "name": "CENTRAL DE ABASTECIMENTO",
+                "code": "172",
+                "codeCostCenter": "21402.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -158.29,
+            "distribution": 0.017320522121443895,
+            "apportionmentId": 165,
+            "sectorId": 185,
+            "sector": {
+                "active": true,
+                "id": 185,
+                "name": "CENTRAL DE MATERIAIS DE OPME ORTESE PROT",
+                "code": "185",
+                "codeCostCenter": "21451.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -15.84,
+            "distribution": 0.00173325586204859,
+            "apportionmentId": 165,
+            "sectorId": 188,
+            "sector": {
+                "active": true,
+                "id": 188,
+                "name": "FARMACIA UTI 1",
+                "code": "188",
+                "codeCostCenter": "21454.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -117.15,
+            "distribution": 0.012818871479734364,
+            "apportionmentId": 165,
+            "sectorId": 192,
+            "sector": {
+                "active": true,
+                "id": 192,
+                "name": "COORDENACAO DE FARMACIA",
+                "code": "192",
+                "codeCostCenter": "21463.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -15.84,
+            "distribution": 0.00173325586204859,
+            "apportionmentId": 165,
+            "sectorId": 196,
+            "sector": {
+                "active": true,
+                "id": 196,
+                "name": "RADIOTERAPIA CANCER CENTER",
+                "code": "196",
+                "codeCostCenter": "21467.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -53.56,
+            "distribution": 0.0058606808062703596,
+            "apportionmentId": 165,
+            "sectorId": 197,
+            "sector": {
+                "active": true,
+                "id": 197,
+                "name": "QUIMIOTERAPIA CANCER CENTER",
+                "code": "197",
+                "codeCostCenter": "21468.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -98.65,
+            "distribution": 0.010794551186306404,
+            "apportionmentId": 165,
+            "sectorId": 201,
+            "sector": {
+                "active": true,
+                "id": 201,
+                "name": "DIRETORIA TECNICA ASSISTENCIAL",
+                "code": "201",
+                "codeCostCenter": "22000.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.49,
+            "distribution": 0.003117453251879061,
+            "apportionmentId": 165,
+            "sectorId": 202,
+            "sector": {
+                "active": true,
+                "id": 202,
+                "name": "SERVICO DE CONTROLE DE INFECCAO HOSPITALAR (SCIH)",
+                "code": "202",
+                "codeCostCenter": "22001.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -51.55,
+            "distribution": 0.005640741141957375,
+            "apportionmentId": 165,
+            "sectorId": 863,
+            "sector": {
+                "active": true,
+                "id": 863,
+                "name": "N\u00daCLEO RELACIONAMENTO M\u00c9DICO",
+                "code": "863",
+                "codeCostCenter": "22006.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -85.47,
+            "distribution": 0.009352359755637184,
+            "apportionmentId": 165,
+            "sectorId": 208,
+            "sector": {
+                "active": true,
+                "id": 208,
+                "name": "MEDICOS HOSPITALISTAS",
+                "code": "208",
+                "codeCostCenter": "22011.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -132.99,
+            "distribution": 0.014552127341782956,
+            "apportionmentId": 165,
+            "sectorId": 211,
+            "sector": {
+                "active": true,
+                "id": 211,
+                "name": "CLINICA UNIDADE ALVARO LEMOS",
+                "code": "211",
+                "codeCostCenter": "22014.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -240.68,
+            "distribution": 0.026335859903904968,
+            "apportionmentId": 165,
+            "sectorId": 220,
+            "sector": {
+                "active": true,
+                "id": 220,
+                "name": "GERENCIA PRATICA ASSISTENCIAL",
+                "code": "220",
+                "codeCostCenter": "22100.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -736.13,
+            "distribution": 0.08054934581627705,
+            "apportionmentId": 165,
+            "sectorId": 221,
+            "sector": {
+                "active": true,
+                "id": 221,
+                "name": "CENTRAL DE TRANSPORTES DE PACIENTES",
+                "code": "221",
+                "codeCostCenter": "22102.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.49,
+            "distribution": 0.003117453251879061,
+            "apportionmentId": 165,
+            "sectorId": 223,
+            "sector": {
+                "active": true,
+                "id": 223,
+                "name": "RECEPCAO CENTRAL - HSI",
+                "code": "223",
+                "codeCostCenter": "22104.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -51.55,
+            "distribution": 0.005640741141957375,
+            "apportionmentId": 165,
+            "sectorId": 224,
+            "sector": {
+                "active": true,
+                "id": 224,
+                "name": "COORDENA\u00c7\u00c3O CONTACT CENTER",
+                "code": "224",
+                "codeCostCenter": "22105.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.49,
+            "distribution": 0.003117453251879061,
+            "apportionmentId": 165,
+            "sectorId": 225,
+            "sector": {
+                "active": true,
+                "id": 225,
+                "name": "NUCLEO DE ATENDIMENTO AO CLIENTE - NAC",
+                "code": "225",
+                "codeCostCenter": "22107.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -15.84,
+            "distribution": 0.00173325586204859,
+            "apportionmentId": 165,
+            "sectorId": 1119,
+            "sector": {
+                "active": true,
+                "id": 1119,
+                "name": "UTI CL\u00cdNICA 4",
+                "code": "1119",
+                "codeCostCenter": "22109.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.49,
+            "distribution": 0.003117453251879061,
+            "apportionmentId": 165,
+            "sectorId": 229,
+            "sector": {
+                "active": true,
+                "id": 229,
+                "name": "UTI CL\u00cdNICA 2",
+                "code": "229",
+                "codeCostCenter": "22119.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.49,
+            "distribution": 0.003117453251879061,
+            "apportionmentId": 165,
+            "sectorId": 230,
+            "sector": {
+                "active": true,
+                "id": 230,
+                "name": "UTI CLINICA - GERAL",
+                "code": "230",
+                "codeCostCenter": "22120.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -15.84,
+            "distribution": 0.00173325586204859,
+            "apportionmentId": 165,
+            "sectorId": 234,
+            "sector": {
+                "active": true,
+                "id": 234,
+                "name": "HEMODINAMICA",
+                "code": "234",
+                "codeCostCenter": "22150.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -38.9,
+            "distribution": 0.004256543752126904,
+            "apportionmentId": 165,
+            "sectorId": 235,
+            "sector": {
+                "active": true,
+                "id": 235,
+                "name": "CME - CENTRAL DE MATERIAL ESTERILIZADO",
+                "code": "235",
+                "codeCostCenter": "22160.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -45.39,
+            "distribution": 0.004966697195605146,
+            "apportionmentId": 165,
+            "sectorId": 236,
+            "sector": {
+                "active": true,
+                "id": 236,
+                "name": "CENTRO CIRURGICO I",
+                "code": "236",
+                "codeCostCenter": "22170.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.49,
+            "distribution": 0.003117453251879061,
+            "apportionmentId": 165,
+            "sectorId": 238,
+            "sector": {
+                "active": true,
+                "id": 238,
+                "name": "UI 3\u00ba ANDAR PEDIATRIA",
+                "code": "238",
+                "codeCostCenter": "22184.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -15.84,
+            "distribution": 0.00173325586204859,
+            "apportionmentId": 165,
+            "sectorId": 239,
+            "sector": {
+                "active": true,
+                "id": 239,
+                "name": "PA PEDIATRICO",
+                "code": "239",
+                "codeCostCenter": "22185.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.49,
+            "distribution": 0.003117453251879061,
+            "apportionmentId": 165,
+            "sectorId": 241,
+            "sector": {
+                "active": true,
+                "id": 241,
+                "name": "UI CONDE 3",
+                "code": "241",
+                "codeCostCenter": "22192.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -28.49,
+            "distribution": 0.003117453251879061,
+            "apportionmentId": 165,
+            "sectorId": 249,
+            "sector": {
+                "active": true,
+                "id": 249,
+                "name": "NUCLEO DE GESTAO DE LEITOS",
+                "code": "249",
+                "codeCostCenter": "22204.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -1391.88,
+            "distribution": 0.15230329351440605,
+            "apportionmentId": 165,
+            "sectorId": 257,
+            "sector": {
+                "active": true,
+                "id": 257,
+                "name": "NUTRICAO PRODUCAO",
+                "code": "257",
+                "codeCostCenter": "22220.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -230.6,
+            "distribution": 0.025232878900783136,
+            "apportionmentId": 165,
+            "sectorId": 265,
+            "sector": {
+                "active": true,
+                "id": 265,
+                "name": "NUTRICAO CLINICA",
+                "code": "265",
+                "codeCostCenter": "22233.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -44.33,
+            "distribution": 0.004850709113927651,
+            "apportionmentId": 165,
+            "sectorId": 270,
+            "sector": {
+                "active": true,
+                "id": 270,
+                "name": "FISIOTERAPIA - HSI",
+                "code": "270",
+                "codeCostCenter": "22240.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -101.31,
+            "distribution": 0.011085615617685774,
+            "apportionmentId": 165,
+            "sectorId": 271,
+            "sector": {
+                "active": true,
+                "id": 271,
+                "name": "PA ADULTO",
+                "code": "271",
+                "codeCostCenter": "22310.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -165.51,
+            "distribution": 0.01811055414947362,
+            "apportionmentId": 165,
+            "sectorId": 272,
+            "sector": {
+                "active": true,
+                "id": 272,
+                "name": "AMBULATORIO SILVA LIMA",
+                "code": "272",
+                "codeCostCenter": "22320.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -85.47,
+            "distribution": 0.009352359755637184,
+            "apportionmentId": 165,
+            "sectorId": 274,
+            "sector": {
+                "active": true,
+                "id": 274,
+                "name": "INTERNAMENTO ( CONVENIOS )",
+                "code": "274",
+                "codeCostCenter": "22330.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -962.81,
+            "distribution": 0.10535328766029059,
+            "apportionmentId": 165,
+            "sectorId": 275,
+            "sector": {
+                "active": true,
+                "id": 275,
+                "name": "COORDENACAO DE HOTELARIA",
+                "code": "275",
+                "codeCostCenter": "22331.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -60.17,
+            "distribution": 0.006583964975976242,
+            "apportionmentId": 165,
+            "sectorId": 276,
+            "sector": {
+                "active": true,
+                "id": 276,
+                "name": "COORD ENFER UNID INTERN ADULTO",
+                "code": "276",
+                "codeCostCenter": "22332.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -88.66,
+            "distribution": 0.009701418227855302,
+            "apportionmentId": 165,
+            "sectorId": 277,
+            "sector": {
+                "active": true,
+                "id": 277,
+                "name": "PRE INTERNAMENTO CONVENIOS",
+                "code": "277",
+                "codeCostCenter": "22333.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -31.68,
+            "distribution": 0.00346651172409718,
+            "apportionmentId": 165,
+            "sectorId": 279,
+            "sector": {
+                "active": true,
+                "id": 279,
+                "name": "INTERNAMENTO SUS",
+                "code": "279",
+                "codeCostCenter": "22340.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -108.53,
+            "distribution": 0.011875647645715498,
+            "apportionmentId": 165,
+            "sectorId": 280,
+            "sector": {
+                "active": true,
+                "id": 280,
+                "name": "PSICOLOGIA HOSPITALAR",
+                "code": "280",
+                "codeCostCenter": "22360.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -44.33,
+            "distribution": 0.004850709113927651,
+            "apportionmentId": 165,
+            "sectorId": 281,
+            "sector": {
+                "active": true,
+                "id": 281,
+                "name": "SERVICO SOCIAL - PACIENTES",
+                "code": "281",
+                "codeCostCenter": "22370.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -15.84,
+            "distribution": 0.00173325586204859,
+            "apportionmentId": 165,
+            "sectorId": 283,
+            "sector": {
+                "active": true,
+                "id": 283,
+                "name": "TOMOGRAFIA",
+                "code": "283",
+                "codeCostCenter": "22390.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -44.33,
+            "distribution": 0.004850709113927651,
+            "apportionmentId": 165,
+            "sectorId": 284,
+            "sector": {
+                "active": true,
+                "id": 284,
+                "name": "RAIO X",
+                "code": "284",
+                "codeCostCenter": "22391.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -309.13,
+            "distribution": 0.033825844989588426,
+            "apportionmentId": 165,
+            "sectorId": 296,
+            "sector": {
+                "active": true,
+                "id": 296,
+                "name": "SALA 106 CONSU. M\u00c9D STA IZABEL",
+                "code": "296",
+                "codeCostCenter": "22407.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -44.33,
+            "distribution": 0.004850709113927651,
+            "apportionmentId": 165,
+            "sectorId": 1003,
+            "sector": {
+                "active": true,
+                "id": 1003,
+                "name": "COORD. ATEN\u00c7\u00c3O PRIMARIA SA\u00daDE",
+                "code": "1003",
+                "codeCostCenter": "22434.0",
+                "company": {
+                    "active": true,
+                    "id": 2,
+                    "name": "02 - HOSPITAL SANTA IZABEL",
+                    "code": "02"
+                },
+                "companyId": 2
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -44.33,
+            "distribution": 0.004850709113927651,
+            "apportionmentId": 165,
+            "sectorId": 549,
+            "sector": {
+                "active": true,
+                "id": 549,
+                "name": "ADMINISTRATIVO",
+                "code": "549",
+                "codeCostCenter": "35100.0",
+                "company": {
+                    "active": true,
+                    "id": 8,
+                    "name": "08 - FACULDADE SANTA CASA",
+                    "code": "08"
+                },
+                "companyId": 8
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -15.84,
+            "distribution": 0.00173325586204859,
+            "apportionmentId": 165,
+            "sectorId": 528,
+            "sector": {
+                "active": true,
+                "id": 528,
+                "name": "ESPACO AVANCAR - CENTRO DE REF EM PROM SOCIAL E CAPACITACAO",
+                "code": "528",
+                "codeCostCenter": "40010.0",
+                "company": {
+                    "active": true,
+                    "id": 6,
+                    "name": "06 - ACAO SOCIAL",
+                    "code": "06"
+                },
+                "companyId": 6
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -15.84,
+            "distribution": 0.00173325586204859,
+            "apportionmentId": 165,
+            "sectorId": 780,
+            "sector": {
+                "active": true,
+                "id": 780,
+                "name": "CASA DE APOIO SOLANGE FRAGA",
+                "code": "780",
+                "codeCostCenter": "40014.0",
+                "company": {
+                    "active": true,
+                    "id": 6,
+                    "name": "06 - ACAO SOCIAL",
+                    "code": "06"
+                },
+                "companyId": 6
+            },
+            "orderBy": null
+        },
+        {
+            "active": true,
+            "base": -33.8,
+            "distribution": 0.003698487887452168,
+            "apportionmentId": 165,
+            "sectorId": 518,
+            "sector": {
+                "active": true,
+                "id": 518,
+                "name": "GER\u00caNCIA DE EVENTOS",
+                "code": "518",
+                "codeCostCenter": "42001.0",
+                "company": {
+                    "active": true,
+                    "id": 5,
+                    "name": "05 - EVENTOS",
+                    "code": "05"
+                },
+                "companyId": 5
+            },
+            "orderBy": null
+        }
+    ],
+    "cycle": null,
+    "cycleId": 5,
+    "baseSum": null,
+    "totalItems": null
+}
