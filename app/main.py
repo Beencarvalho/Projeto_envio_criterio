@@ -13,6 +13,7 @@ pasta_arquivos = 'data'
 # Certifique-se de que a pasta 'data/' exista
 if not os.path.exists('app/data/'):
     os.makedirs('app/data/')
+    
 # Listar todos os arquivos Excel na pasta
 arquivos_excel = [os.path.join(pasta_arquivos, f) 
                   for f in os.listdir(pasta_arquivos) 
@@ -66,12 +67,12 @@ def criar_item_json(linha, id_item):
 
 
 # Função para processar um único arquivo Excel
-def processar_arquivo(file_path, ultimo_id_criterio):
+def processar_arquivo(file_path, ): #ultimo_id_criterio (adicionar caso queira criar um id)
     # Nome de cada arquivo para ser o "name"
     nome_arquivo = os.path.splitext(os.path.basename(file_path))[0]
 
     # Atualizar o ID sequencial somando 1
-    id_atual = ultimo_id_criterio + 1
+    #id_atual = ultimo_id_criterio + 1
 
     # Criando descrição 
     df2 = pd.read_excel(file_path)
@@ -85,7 +86,7 @@ def processar_arquivo(file_path, ultimo_id_criterio):
     df.columns = ['empresa', 'cod_setor', 'centro_custo', 'setor', 'base', 'distribuicao']
 
     # Criar a lista de itens para a requisição
-    id_item = id_atual
+    id_item = 0
     itens = [criar_item_json(linha, id_item) for _, linha in df.iterrows()]
 
     # Montando o JSON final para a requisição
@@ -157,8 +158,8 @@ if not os.path.exists('jsons/'):
 
 # Processar e salvar JSONs para todos os arquivos Excel na pasta
 for arquivo in arquivos_excel:
-    salvar_json_local(arquivo, ultimo_id_criterio)
-    ultimo_id_criterio += 1  # Incrementar o ID para o próximo arquivo
+    salvar_json_local(arquivo) #ultimo_id_criterio adicionar caso queira criar id
+    #ultimo_id_criterio += 1  # Incrementar o ID para o próximo arquivo
 
 # Após salvar os JSONs localmente, você pode enviá-los
 enviar_jsons_da_pasta()
