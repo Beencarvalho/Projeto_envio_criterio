@@ -6,11 +6,13 @@ from util.api_token import url,headers
 
 # Caminho para a pasta que contém os arquivos Excel
 pasta_arquivos = 'data'
+
 # Definindo um ID inicial
-ultimo_id_criterio = int(input("Digite o numero do ID do ultimo criterio cadastrado: "))
+#ultimo_id_criterio = int(input("Digite o numero do ID do ultimo criterio cadastrado: "))
+
 # Certifique-se de que a pasta 'data/' exista
-if not os.path.exists('data/'):
-    os.makedirs('data/')
+if not os.path.exists('app/data/'):
+    os.makedirs('app/data/')
 # Listar todos os arquivos Excel na pasta
 arquivos_excel = [os.path.join(pasta_arquivos, f) 
                   for f in os.listdir(pasta_arquivos) 
@@ -70,10 +72,14 @@ def processar_arquivo(file_path, ultimo_id_criterio):
     # Atualizar o ID sequencial somando 1
     id_atual = ultimo_id_criterio + 1
 
+    # Criando descrição 
+    df2 = pd.read_excel(file_path)
+    description = df2.iloc[3, 5]
+
     # Ler o arquivo Excel, removendo as 8 primeiras linhas e mantendo as 6 primeiras colunas
     df = pd.read_excel(file_path, skiprows=8)
     df = df.iloc[:-1, :6] # Manter apenas as 6 primeiras colunas e todas as linhas exeto a ultima. 
-
+    
     # Renomear as colunas para facilitar o acesso (com base nas colunas identificadas)
     df.columns = ['empresa', 'cod_setor', 'centro_custo', 'setor', 'base', 'distribuicao']
 
@@ -84,9 +90,9 @@ def processar_arquivo(file_path, ultimo_id_criterio):
     # Montando o JSON final para a requisição
     json_final = {
         "active": True,
-        "id": id_atual,
+        "id": 0,
         "name": nome_arquivo,
-        "description": "Adicione uma descricao aqui",
+        "description": description,
         "items": itens,
         "cycle": None,
         "cycleId": 5,
