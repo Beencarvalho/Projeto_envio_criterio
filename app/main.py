@@ -62,7 +62,8 @@ def criar_item_json(linha, id_item):
             "companyId": id_empresa
         },
         "orderBy": None
-    }
+    } 
+
 
 # Função para processar um único arquivo Excel
 def processar_arquivo(file_path, ultimo_id_criterio):
