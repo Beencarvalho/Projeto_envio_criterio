@@ -5,7 +5,7 @@ import os
 from util.api_token import url,headers
 
 # Caminho para a pasta que contém os arquivos Excel
-pasta_arquivos = 'app/data'
+pasta_arquivos = 'data'
 
 # Certifique-se de que a pasta 'data/' exista
 #if not os.path.exists('app/data/'):
@@ -163,4 +163,4 @@ for arquivo in arquivos_excel:
     #ultimo_id_criterio += 1  # Incrementar o ID para o próximo arquivo
 
 # Após salvar os JSONs localmente, você pode enviá-los
-#enviar_jsons_da_pasta()
+enviar_jsons_da_pasta()
