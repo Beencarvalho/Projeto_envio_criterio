@@ -93,7 +93,6 @@ def processar_arquivo(file_path, ): #ultimo_id_criterio (adicionar caso queira c
     # Montando o JSON final para a requisição
     json_final = {
         "active": True,
-        "id": 0,
         "name": nome_arquivo,
         "description": description,
         "items": itens,
