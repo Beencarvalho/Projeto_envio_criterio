@@ -9,7 +9,7 @@ pasta_arquivos = 'app/data'
 
 # Certifique-se de que a pasta 'data/' exista
 #if not os.path.exists('app/data/'):
-#    os.makedirs('data/')
+#    os.makedirs('app/data/')
     
 # Listar todos os arquivos Excel na pasta
 arquivos_excel = [os.path.join(pasta_arquivos, f) 
