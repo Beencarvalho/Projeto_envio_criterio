@@ -6,8 +6,8 @@ REM Navegar para o diretório do projeto e rodar o script Python com Poetry
 cd ..\..\..\projetospython\envio_criterio\app
 poetry run python main.py
 
-REM Esperar 300 segundos antes de encerrar
-timeout /t 300
+REM Esperar 100 segundos antes de encerrar
+timeout /t 100
 
 REM Mover arquivos Excel de volta para area de trabalho
 move "..\..\..\projetospython\envio_criterio\app\data\*.xlsx" %UserProfile%\Desktop\criterios\

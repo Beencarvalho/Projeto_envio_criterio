@@ -5,14 +5,11 @@ import os
 from util.api_token import url,headers
 
 # Caminho para a pasta que contém os arquivos Excel
-pasta_arquivos = 'data'
-
-# Definindo um ID inicial
-#ultimo_id_criterio = int(input("Digite o numero do ID do ultimo criterio cadastrado: "))
+pasta_arquivos = 'app/data'
 
 # Certifique-se de que a pasta 'data/' exista
-if not os.path.exists('app/data/'):
-    os.makedirs('app/data/')
+#if not os.path.exists('app/data/'):
+#    os.makedirs('data/')
     
 # Listar todos os arquivos Excel na pasta
 arquivos_excel = [os.path.join(pasta_arquivos, f) 
@@ -26,7 +23,7 @@ def criar_item_json(linha, id_item):
     cod_setor = linha['cod_setor'] if pd.notnull(linha['cod_setor']) else 0
     centro_custo = linha['centro_custo'] if pd.notnull(linha['centro_custo']) else 'N/A'
     base = linha['base'] if pd.notnull(linha['base']) else 0
-    distrib = linha['distribuicao'] if pd.notnull(linha['distribuicao']) else 0
+    distrib = linha['distribuicao'] if pd.notnull(linha['distribuicao']) else 0  # Arredonda para 3 casas decimais
     
     # Verificar se a empresa tem um formato válido
     if pd.notnull(linha['empresa']) and " - " in linha['empresa']:
@@ -53,7 +50,7 @@ def criar_item_json(linha, id_item):
             "id": int(cod_setor),
             "name": linha['setor'],
             "code": str(int(cod_setor)),
-            "codeCostCenter": str(centro_custo),
+            "codeCostCenter": centro_custo,
             "company": {
                 "active": True,
                 "id": id_empresa,  # ID tratado
@@ -84,6 +81,10 @@ def processar_arquivo(file_path, ): #ultimo_id_criterio (adicionar caso queira c
     
     # Renomear as colunas para facilitar o acesso (com base nas colunas identificadas)
     df.columns = ['empresa', 'cod_setor', 'centro_custo', 'setor', 'base', 'distribuicao']
+
+    # Forçar os tipos das colunas e formatar valores de distribuição
+    df['distribuicao'] = pd.to_numeric(df['distribuicao'], errors='coerce').apply(
+        lambda x:round(x * 100, 4) if pd.notnull(x) else 0.0000)
 
     # Criar a lista de itens para a requisição
     id_item = 0
@@ -153,8 +154,8 @@ def enviar_jsons_da_pasta():
         enviar_json(json_dados, json_file)
 
 # Certifique-se de que a pasta 'jsons/' exista
-if not os.path.exists('jsons/'):
-    os.makedirs('jsons/')
+#if not os.path.exists('jsons/'):
+#   os.makedirs('jsons/')
 
 # Processar e salvar JSONs para todos os arquivos Excel na pasta
 for arquivo in arquivos_excel:
@@ -162,4 +163,4 @@ for arquivo in arquivos_excel:
     #ultimo_id_criterio += 1  # Incrementar o ID para o próximo arquivo
 
 # Após salvar os JSONs localmente, você pode enviá-los
-enviar_jsons_da_pasta()
+#enviar_jsons_da_pasta()
