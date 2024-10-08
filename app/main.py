@@ -158,8 +158,7 @@ def enviar_jsons_da_pasta():
 
 # Processar e salvar JSONs para todos os arquivos Excel na pasta
 for arquivo in arquivos_excel:
-    salvar_json_local(arquivo) #ultimo_id_criterio adicionar caso queira criar id
-    #ultimo_id_criterio += 1  # Incrementar o ID para o próximo arquivo
+    salvar_json_local(arquivo) 
 
 # Após salvar os JSONs localmente, você pode enviá-los
 enviar_jsons_da_pasta()
