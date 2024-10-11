@@ -6,10 +6,11 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.12,<3.14"
 pandas = "^2.2.2"
 requests = "^2.32.3"
 openpyxl = "^3.1.5"
+pyinstaller = "^6.10.0"
 
 
 [tool.poetry.group.dev.dependencies]

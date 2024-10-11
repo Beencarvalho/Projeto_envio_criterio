@@ -1,3 +1,7 @@
 api_token.py
 app/data
 app/jsons
+build
+dist
+criteriossgo.spec
+envio_criterio.Ink
